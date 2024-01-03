@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="./script.js"></script>
+    <title>Pricing Page for GrooveVerse</title>
+</head>
+<body>
+    <div id="mainone">
+        <h1>PRICING PAGE FOR GROOVEVERSE</h1>
+    </div>
+    <div class="Drop-down">
+        <select id="Currency" onchange="updatePrices()">
+            <option value="USD">USA</option>
+            <option value="EUR">EUROPE</option>
+            <option value="INR">INDIA</option> 
+            <option value="GBP">LONDON</option>
+            <option value="AUD">AUSTRALIA</option>
+            <option value="CAD">CANADA</option>
+        </select>
+    </div>
+    <section class="Pricing">
+        <div  class="card-wrapper">
+            <div class="card-header">
+                <img src="">
+                <h2>STUDENT</h2>
+            </div>
+            <div class="card-detail">
+                <p><span class="fas fa-check check"></span><b></b> 1 User</p>
+                <p><span class="fas fa-check check"></span> Discounted rate</p>
+                <p><span class="fas fa-check check "></span> Student Verification</p>
+                <p><span class="fas fa-check check "></span> Exclusive Playlists and Student Discounts</p>
+            </div>
+            <div class="card-price">
+                <p id="Price-1" class="currency">$5/month</p>
+            </div>
+            <button class="card-button">I WANT IT</button>
+        </div>
+        <div class="card-wrapper">
+            <div class="card-header">
+                <img src="">
+                <h2>INDIVIDUAL</h2>
+            </div>
+            <div class="card-detail">
+                <p><span class="fas fa-check check"></span> 1 User</p>
+                <p><span class="fas fa-check check"></span> Ad-Free Listening with Unlimited Skips</p>
+                <p><span class="fas fa-check check"></span> Offline Downloads</p>
+                <p><span class="fas fa-check check"></span> High-quality Audio</p>
+            </div>
+            <div class="card-price">
+                <p id="Price-2" class="currency">$10/month</p>
+            </div>
+            <button class="card-button">I WANT IT</button>
+        </div>
+        <div class="card-wrapper">
+            <div class="card-header">
+                <img src="">
+                <h2>FAMILY</h2>
+            </div>
+            <div class="card-detail">
+                <p><span class="fas fa-check check"></span> Upto<b> 5</b> Users</p>
+                <p><span class="fas fa-check check"></span> All individual features</p>
+                <p><span class="fas fa-check check"></span> Simultaneous Streaming and Parental Controls</p>
+                <p><span class="fas fa-check check"></span> Shared Playlists</p>
+            </div>
+            <div class="card-price">
+                <p id="Price-3" class="currency">$30/month</p>
+            </div>
+            <button class="card-button">I WANT IT</button>
+        </div>
+        
+    </section>
+</body>
+</html>

@@ -1,0 +1,106 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: blueviolet;
+    background-image: linear-gradient(45deg, #52D3D8 0%, #3887BE 74%);
+}
+#mainone{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Drop-down{
+    display: flex;
+    justify-content: right;
+    align-items: left;
+    margin-right: 60px;
+    margin-top: -10px;
+}
+.Pricing{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+}
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 5px 14 px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+    padding: 2rem;
+    margin: 1rem;
+    transition: all 0.3s ease-in;
+}
+.card-wrapper:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 14 px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+.card-header{
+    margin: 1rem;
+    text-align: center;
+}
+.card-wrapper:hover .card-header h2{
+    transform: scale(1.05);
+    color: blueviolet;
+    letter-spacing: 2px;
+
+}
+.card-header >img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.card-detail{
+    width: 100%;
+}
+.card-detail > p{
+    padding: 0.6rem 1.5rem;
+    font-size: 0.8rem;
+    border-bottom: 1px solid white;
+}
+.check{
+    color: seagreen;
+
+}
+.nocheck{
+    color: red;
+}
+.card.card-detail > p:hover{
+    background-color: grey;
+}
+.card-price > p{
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+.card-price > p > sup, .card-price > p > sub{
+    font-size: 1rem;
+}
+.card-button{
+    padding: 0.6rem 3rem;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    color:aliceblue;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 50ms ease-in;
+}
+.card-button:hover{
+    background-color: aliceblue;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+} 
