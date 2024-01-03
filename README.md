@@ -1,2 +1,2 @@
 # MyInternshipProjects
-Here, I have the porjects that I have done through various internships.
+Here, I have the projects that I have done through various internships.
