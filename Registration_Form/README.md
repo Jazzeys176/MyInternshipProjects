@@ -1,7 +1,7 @@
 # Registration Form (Week 2 Project):
 About this project:
 <ul>
-  <li>This is a basic webpage for Registration form.</li>
+  <li>This is a basic webpage for Registration form.</li> 
   <li>This registration form contains different fields which are:
     <ul>
       <li>First Name</li>
